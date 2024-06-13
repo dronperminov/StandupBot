@@ -1,0 +1,13 @@
+[flake8]
+
+max-line-length = 160
+max-complexity = 10
+inline-quotes = "
+
+application-import-names = src, tests
+import-order-style = pycharm
+
+exclude = .git, __pycache__, .idea
+
+# ANN101 - type annotations for self
+ignore = ANN101
